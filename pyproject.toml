@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cat /etc/os-release"
+version = "0.1.0"
+description = ""
+authors = ["jac0be <jacob.edwards1@uqconnect.edu.au>"]
+readme = "README.md"
+packages = [{include = "cat "}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^3.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
